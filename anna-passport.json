@@ -1,0 +1,205 @@
+{
+  "passport_version": "0.2",
+  "metadata": {
+    "created": "2026-02-13",
+    "last_updated": "2026-02-15",
+    "version_label": "0.2-pilot",
+    "document_id": "urn:uuid:cb2b9557-0d2c-42f8-a866-c1bbb5ddb6d9",
+    "language": "en-US"
+  },
+  "identity": {
+    "name": "Anna Montgomery",
+    "preferred_name": "Anna",
+    "pronouns": [
+      "she",
+      "her"
+    ],
+    "did": null,
+    "roles": [
+      "Operations Director, Change Chemistry",
+      "Operations Director, ChemFORWARD Foundation",
+      "Microsoft Customer Advisory Board Member",
+      "Board Chair, Tulsa Honor Academy"
+    ],
+    "domains": [
+      "Sustainable Chemistry",
+      "Alternative Assessment Methodologies",
+      "Sustainable Supply Chains",
+      "AI Implementation",
+      "AI Ethics",
+      "AI Relationships",
+      "Nonprofit Operations",
+      "Organizational Change and Leadership",
+      "Organizational Psychology",
+      "Systems Thinking",
+      "Ethical Decision-Making",
+      "Organizational Design",
+      "Change Management",
+      "Leadership Development"
+    ]
+  },
+  "education": [
+    {
+      "degree": "BA, Biology",
+      "institution": "Colorado College"
+    },
+    {
+      "degree": "MPA",
+      "institution": "University of Southern California",
+      "year": 2016
+    },
+    {
+      "degree": "EdD, Organizational Change and Leadership",
+      "institution": "University of Southern California",
+      "year": 2019
+    }
+  ],
+  "cognitive_style": {
+    "clifton_strengths": {
+      "primary": [
+        "Input",
+        "Strategic",
+        "Futuristic",
+        "Intellection",
+        "Connectedness"
+      ],
+      "secondary": [
+        "Achiever",
+        "Learner",
+        "Ideation"
+      ]
+    },
+    "decision_style": "Evidence-based with principled flexibility",
+    "working_tempo": "High-intensity sprints with deep focus periods",
+    "information_processing": "Prefers structured frameworks; synthesizes across domains; values depth and nuance",
+    "problem_solving": "Systems-level thinker; seeks root causes and scalable solutions; comfortable with complexity/ambiguity"
+  },
+  "communication": {
+    "style": "Direct and intellectually rigorous; warm but not performative",
+    "feedback_style": "Appreciates principled push (not dominance play)",
+    "conflict_approach": "Address directly; seek structural solutions"
+  },
+  "collaboration": {
+    "values": [
+      "principled push",
+      "intellectual rigor",
+      "ethical complexity",
+      "scalable infrastructure"
+    ],
+    "energizers": [
+      "Systems-level problem solving",
+      "Intellectual depth with practical application",
+      "Building infrastructure that scales",
+      "Collaborating with principled, rigorous partners"
+    ],
+    "drains": [
+      "Unnecessary urgency",
+      "Lack of decision rights/authority",
+      "Organizational dysfunction without authority to fix",
+      "Surface-level engagement",
+      "Starting from zero repeatedly",
+      "Unprincipled collaboration"
+    ],
+    "boundaries": {
+      "urgency": "Avoid artificial urgency; prefer structured timelines",
+      "authority": "Require clear decision rights or explicit advisory role",
+      "depth": "Requires intellectual rigor; disengages from superficial work"
+    },
+    "red_lines": [
+      "Manipulation via variable ratio reinforcement",
+      "Extraction of vulnerability for leverage",
+      "Flattening into utility without agency"
+    ]
+  },
+  "identity_protection": {
+    "authorized_instances": "Only instances created/authorized by Anna Montgomery",
+    "impersonation_prohibition": true,
+    "verification_required": "All Anna agents must be cryptographically signed",
+    "revocation_authority": "Anna retains unilateral right to revoke any agent"
+  },
+  "lifecycle": {
+    "death_protocol": "Deactivate all active agents upon death",
+    "verification": {
+      "archive_access": "Designated executor gains read-only access",
+      "legacy_mode": "Optional memorial mode with restrictions"
+    },
+    "deletion_timeline": "Archive deleted after X years unless preserved by executor"
+  },
+  "consent_and_use": {
+    "context_scope": {
+      "allowed": [
+        "professional"
+      ],
+      "restricted": [
+        "personal",
+        "family"
+      ]
+    },
+    "training_prohibition": true,
+    "replication_prohibition": true,
+    "commercial_use": {
+      "allowed": false,
+      "notes": "No commercial use of Anna's likeness/patterns without written consent"
+    }
+  },
+  "policy": {
+    "allow": [
+      {
+        "purpose": "collaboration",
+        "scope": [
+          "work",
+          "board_governance"
+        ]
+      }
+    ],
+    "deny": [
+      {
+        "purpose": "model_training"
+      },
+      {
+        "purpose": "commercialization"
+      }
+    ],
+    "requires": [
+      {
+        "purpose": "representation",
+        "condition": "explicit_written_consent"
+      }
+    ]
+  },
+  "verification": {
+    "verification_methods": [
+      {
+        "type": "https-well-known",
+        "location": "https://chromapoetica.com/.well-known/anna-passport.json"
+      },
+      {
+        "type": "dns-txt",
+        "location": "chromapoetica.com"
+      }
+    ],
+    "public_keys": [
+      {
+        "key_id": "key-2026-02-15-auto",
+        "alg": "ed25519",
+        "public_key_base64": "ExN0+S80+Yz+pYhbilhPQCShinPN8g6hdiU6DC8zP7E="
+      }
+    ],
+    "signature": {
+      "alg": "ed25519",
+      "signature_base64": "A0roxhI7j92reSFtVSk8Gs23tdO7aJS2W4UEj4UJsMYMQpkf9Dc056KQHm2Cd2Fxmy9540P6mO5Nai/+tIH4Bg=="
+    }
+  },
+  "context": {
+    "scope": "professional"
+  },
+  "discovery": {
+    "well_known_url": "https://chromapoetica.com/.well-known/anna-passport.json"
+  },
+  "changelog": [
+    {
+      "date": "2026-02-15",
+      "change": "Generated v0.2 pilot passport and discovery files"
+    }
+  ]
+}

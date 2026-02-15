@@ -1,0 +1,19 @@
+{
+  "subject": "https://chromapoetica.com/",
+  "passport": "https://chromapoetica.com/.well-known/anna-passport.json",
+  "hash": {
+    "alg": "sha-256",
+    "value": "f214e67b25b6661193df4bb9d5dc7864f4143b18ca509bbc32510bab9c75c9bd"
+  },
+  "keys": [
+    {
+      "key_id": "key-2026-02-15-auto",
+      "alg": "ed25519",
+      "public_key_base64": "ExN0+S80+Yz+pYhbilhPQCShinPN8g6hdiU6DC8zP7E="
+    }
+  ],
+  "policy_endpoint": "https://chromapoetica.com/api/policy/evaluate",
+  "handshake_endpoint": "https://chromapoetica.com/api/agents/handshake",
+  "disclosure_endpoint": "https://chromapoetica.com/api/agents/disclose",
+  "logs_endpoint": "https://chromapoetica.com/api/agents/logs"
+}
